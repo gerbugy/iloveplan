@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 어플리케이션 -->
+    <string name="app_name">아이러브플랜</string>
+    <string name="app_info">애플리케이션 정보</string>
+
+    <!-- 공통 -->
+    <string name="required_permissions">권한(%1$s)이 필요합니다</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="save">저장</string>
+    <string name="add">추가</string>
+    <string name="edit">수정</string>
+    <string name="delete">삭제</string>
+    <string name="close">닫기</string>
+    <string name="login">로그인</string>
+    <string name="period">기간</string>
+    <string name="widget">위젯</string>
+    <string name="plan">계획</string>
+    <string name="share">공유</string>
+    <string name="updated">수정되었습니다.</string>
+    <string name="deleted">삭제되었습니다.</string>
+    <string name="waiting">잠시만 기다려주세요&#8230;</string>
+    <string name="agree">동의</string>
+    <string name="today">오늘</string>
+    <string name="monday">월</string>
+    <string name="tuesday">화</string>
+    <string name="wednesday">수</string>
+    <string name="thursday">목</string>
+    <string name="friday">금</string>
+    <string name="saturday">토</string>
+    <string name="sunday">일 </string>
+    <string name="space">" "</string>
+    <string name="tilde">~</string>
+    <string name="blank"></string>
+
+    <!-- 탭 -->
+    <string name="title_tab1">계획</string>
+    <string name="title_tab2">메모</string>
+
+    <!-- 메인 -->
+    <string name="update_require">업데이트가 필요합니다.</string>
+    <string name="main_exit_confirm">뒤로 버튼을 한번 더 누르면 종료됩니다.</string>
+
+    <!-- 계획 -->
+    <string name="plan_nm">계획명</string>
+    <string name="plan_add">새 계획</string>
+    <string name="plan_edit">계획 수정</string>
+    <string name="plan_list_old">지난 계획 보기</string>
+    <string name="plan_delete_confirm">계획이 삭제됩니다. 계속하시겠습니까?</string>
+    <string name="plan_date_format">yyyy년 M월 d일</string>
+    <string name="plan_date_form_format">yyyy년 M월 d일 (E)</string>
+    <string name="plan_date_lunar_format">(음력 M월 d일)</string>
+    <string name="plan_date_memo_hint">메모를 남기려면 터치하세요.</string>
+    <string name="plan_on_weekday">요일 반복</string>
+    <string name="plan_on_holiday">공휴일</string>
+    <string name="plan_on_holiday_yes">공휴일 포함</string>
+    <string name="plan_on_holiday_no">공휴일 제외</string>
+    <string name="plan_edit_limit">실천여부는 일주일내에만 수정할 수 있습니다.</string>
+
+    <!-- 메모 -->
+    <string name="memo_add">새 메모</string>
+    <string name="memo_edit">메모 수정</string>
+    <string name="memo_view">메모 보기</string>
+    <string name="memo_delete_confirm">메모가 삭제됩니다. 계속하시겠습니까?</string>
+
+    <!-- 내 정보 -->
+    <string name="myinfo">내 정보</string>
+    <string name="myinfo_user_email">이메일</string>
+    <string name="myinfo_user_email_invalid">이메일을 정확하게 입력해주세요.</string>
+    <string name="myinfo_user_email_invalid_duplicate">이미 사용중인 이메일입니다.</string>
+    <string name="myinfo_user_pw">비밀번호</string>
+    <string name="myinfo_user_pw_now">현재 비밀번호</string>
+    <string name="myinfo_user_pw_new">새 비밀번호</string>
+    <string name="myinfo_user_pw_update_title">비밀번호 변경</string>
+    <string name="myinfo_user_pw_update_summary">비밀번호를 변경합니다.</string>
+    <string name="myinfo_user_pw_update_fail">현재 비밀번호를 정확하게 입력해주세요.</string>
+    <string name="myinfo_user_pw_invalid_whitespace">비밀번호는 공백없이 입력해주세요.</string>
+    <string name="myinfo_user_pw_invalid_length">비밀번호는 6~16자 이내로 입력해주세요.</string>
+    <string name="myinfo_user_pw_invalid_same">현재 비밀번호와 동일합니다.</string>
+    <string name="myinfo_user_pw_find_title">비밀번호 찾기</string>
+    <string name="myinfo_user_pw_find_summary">비밀번호를 이메일로 확인하세요.</string>
+    <string name="myinfo_user_pw_find_fail">이메일이 등록되어 있지 않거나, 별명을 잘못 입력하셨습니다.</string>
+    <string name="myinfo_user_pw_find_success">이메일로 비밀번호가 발송되었습니다.</string>
+    <string name="myinfo_user_nm">별명</string>
+    <string name="myinfo_user_nm_update_title">별명 바꾸기</string>
+    <string name="myinfo_user_nm_new">새 별명</string>
+    <string name="myinfo_user_nm_invalid_whitespace">별명은 공백없이 입력해주세요.</string>
+    <string name="myinfo_user_nm_invalid_length">별명은 2~10자 이내로 입력해주세요.</string>
+    <string name="myinfo_user_nm_invalid_duplicate">이미 사용중인 별명입니다.</string>
+    <string name="myinfo_user_nm_invalid_reserve">사용할 수 없는 별명입니다.</string>
+    <string name="myinfo_profile_title">프로필</string>
+    <string name="myinfo_profile_summary">님의 프로필입니다.</string>
+    <string name="myinfo_logout_title">로그아웃</string>
+    <string name="myinfo_logout_summary">로그아웃합니다.</string>
+    <string name="myinfo_logout_confirm">로그아웃을 하시겠습니까?</string>
+    <string name="myinfo_login_title">로그인</string>
+    <string name="myinfo_login_summary">로그인합니다.</string>
+    <string name="myinfo_login_fail">현재 입력하신 이메일이 등록되어 있지 않거나, 이메일 또는 비밀번호를 잘못 입력하셨습니다.</string>
+    <string name="myinfo_signup_title">회원가입</string>
+    <string name="myinfo_signup_summary">다양한 서비스를 이용하실 수 있습니다.</string>
+    <string name="myinfo_signup_agree_title">이용약관</string>
+    <string name="myinfo_signup_agree_button">약관동의 및 회원가입</string>
+    <string name="myinfo_signout_title">회원탈퇴</string>
+    <string name="myinfo_signout_summary">회원을 탈퇴합니다.</string>
+    <string name="myinfo_signout_confirm">회원탈퇴를 하시겠습니까?</string>
+    <string name="myinfo_signout_fail">비밀번호를 잘못 입력하셨습니다.</string>
+
+    <!-- 커뮤니티 -->
+    <string name="community">커뮤니티</string>
+    <string name="community_add">새 글</string>
+    <string name="community_edit_subject">제목 수정</string>
+    <string name="community_subject">제목</string>
+    <string name="community_content">내용</string>
+    <string name="community_comment_add">댓글 쓰기</string>
+    <string name="community_comment_edit">댓글 수정</string>
+    <string name="community_comment_delete_confirm">댓글이 삭제됩니다. 계속하시겠습니까?</string>
+    <string name="community_delete_confirm">글이 삭제됩니다. 계속하시겠습니까?</string>
+    <string name="community_notice_title">공지사항</string>
+    <string name="community_notice_summary">여러가지 소식들을 알려드립니다.</string>
+    <string name="community_help_title">도움말</string>
+    <string name="community_help_summary">서비스 궁금증에 대한 질문과 답변을 안내합니다.</string>
+    <string name="community_quote_title">명언</string>
+    <string name="community_quote_summary">인생의 실타래를 푸는 삶의 지혜를 모았습니다.</string>
+    <string name="community_praise_title">칭찬의 기적</string>
+    <string name="community_praise_summary">주위의 소중한 사람들을 칭찬해주세요.</string>
+
+    <!-- 설정 -->
+    <string name="setting">설정</string>
+    <string name="setting_import_export_title">가져오기/내보내기</string>
+    <string name="setting_import_export_summary">자료를 가져오거나 내보낼 수 있습니다.</string>
+    <string name="setting_import_from_sdcard">SD 카드에서 가져오기</string>
+    <string name="setting_import_from_sdcard_fail">SD 카드에서 가져올 수 없습니다.</string>
+    <string name="setting_import_from_sdcard_success">가져왔습니다.</string>
+    <string name="setting_import_from_sdcard_confirm">SD 카드의 데이터로 대체됩니다. 계속하시겠습니까?</string>
+    <string name="setting_export_to_sdcard">SD 카드로 내보내기</string>
+    <string name="setting_export_to_sdcard_success">내보냈습니다.</string>
+    <string name="setting_export_to_sdcard_fail">SD 카드로 내보낼 수 없습니다.</string>
+    <string name="setting_export_to_sdcard_confirm">이전에 내보낸 데이터가 덮어쓰기됩니다. 계속하시겠습니까?</string>
+
+    <!-- 앱(위젯) -->
+    <string name="appwidget_list">아이러브플랜(목록보기)</string>
+    <string name="appwidget_date_format">M월 d일 (E)</string>
+
+    <!-- 에러 -->
+    <string name="airplane_mode_fail">비행기모드에서는 실행할 수 없습니다.</string>
+    <string name="connect_network_fail">네트워크 연결에 실패했습니다.</string>
+    <string name="data_load_fail">데이터를 로드하는 데 실패했습니다.</string>
+    <string name="request_fail">요청을 처리하지 못했습니다.</string>
+    <string name="request_success">정상적으로 처리되었습니다.</string>
+    <string name="open_drawer_content_desc">open_drawer_content_desc</string>
+    <string name="close_drawer_content_desc">close_drawer_content_desc</string>
+    <string name="home">홈</string>
+    <string name="habit">습관</string>
+    <string name="memo">메모</string>
+    <string name="choice">선택</string>
+
+    <!-- 가져오기/내보내기 -->
+    <string name="import_from_device">가져오기</string>
+    <string name="import_from_device_fail">SD 카드에서 가져올 수 없습니다.</string>
+    <string name="import_from_device_success">가져왔습니다</string>
+    <string name="export_to_device">내보내기</string>
+    <string name="export_to_device_success">내보냈습니다</string>
+    <string name="export_to_device_fail">SD 카드로 내보낼 수 없습니다.</string>
+    <string name="account">계정</string>
+    <string name="database">데이터베이스</string>
+    <string name="image">이미지</string>
+    <string name="confirm">확인</string>
+
+
+    <!-- 전역 -->
+    <string name="app_drawer_open">open drawer</string>
+    <string name="app_drawer_close">close drawer</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5295314606402898/6292952592</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- 단어 -->
+    <string name="search">검색</string>
+    <string name="id">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="url">URL</string>
+    <string name="hour">시간</string>
+    <string name="description">비고</string>
+
+    <!-- 계정 -->
+    <string name="account_add">새 계정</string>
+    <string name="account_edit">계정 편집</string>
+    <string name="account_view">계정 보기</string>
+    <string name="account_delete_confirm">계정을 삭제하시겠습니까?</string>
+    <string name="account_name">계정명</string>
+</resources>

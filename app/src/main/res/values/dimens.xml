@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_label2">62dp</dimen>
+    <dimen name="padding_label3">77dp</dimen>
+    <dimen name="padding_label4">96dp</dimen>
+
+    <dimen name="list_item_tile_icon_width">47dip</dimen>
+
+    <!-- 캘린더 -->
+    <dimen name="day_label_text_size">11sp</dimen>
+
+</resources>

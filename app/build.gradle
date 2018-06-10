@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.iloveplan.android"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 18060700
+        versionName "18.6.7"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+
+    // support
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:customtabs:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+
+    // TODO 삭제
+    implementation 'org.apache.httpcomponents:httpcore:4.4.9'
+    // implementation 'org.apache.httpcomponents:httpclient:4.5.5'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    // firebase
+//    implementation 'com.google.firebase:firebase-core:16.0.0'
+//    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    implementation 'com.google.firebase:firebase-ads:15.0.1'
+}
+
+//apply plugin: 'com.google.gms.google-services'

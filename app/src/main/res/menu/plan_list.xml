@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/new_main"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="새 메인 화면"
+        app:showAsAction="ifRoom" />
+
+    <group android:id="@+id/hardware_menu">
+        <item
+            android:id="@+id/old"
+            android:orderInCategory="1"
+            android:title="@string/plan_list_old"
+            app:showAsAction="never" />
+    </group>
+</menu>

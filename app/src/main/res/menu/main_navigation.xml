@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/account"
+        android:title="@string/account" />
+
+    <item
+        android:id="@+id/database"
+        android:title="@string/database" />
+
+    <item
+        android:id="@+id/app_info"
+        android:title="@string/app_info" />
+
+    <!--
+    <item android:title="@string/database">
+        <menu>
+            <item
+                android:id="@+id/import_from_device"
+                android:title="@string/import_from_device" />
+            <item
+                android:id="@+id/export_to_device"
+                android:title="@string/export_to_device" />
+        </menu>
+    </item>
+    -->
+</menu>

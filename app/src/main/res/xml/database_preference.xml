@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="import_from_device"
+        android:title="@string/import_from_device" />
+    <Preference
+        android:key="export_to_device"
+        android:title="@string/export_to_device" />
+</PreferenceScreen>

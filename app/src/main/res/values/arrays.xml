@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 메뉴(가져오기/내보내기) -->
+    <string-array name="menu_import_export">
+        <item>@string/setting_import_from_sdcard</item>
+        <item>@string/setting_export_to_sdcard</item>
+    </string-array>
+
+</resources>
