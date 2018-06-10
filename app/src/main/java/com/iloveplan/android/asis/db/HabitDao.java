@@ -23,6 +23,25 @@ public class HabitDao {
         String POSITION = "position";
         String CREATED_AT = "created_at";
         String UPDATED_AT = "updated_at";
+
+        ////////////////////////////////////////
+        String PLAN_NO = "PLAN_NO";
+        String PLAN_NM = "PLAN_NM";
+        String PLAN_STDT = "PLAN_STDT";
+        String PLAN_EDDT = "PLAN_EDDT";
+        String TOTAL_COUNT = "TOTAL_COUNT";
+        String SUCCESS_COUNT = "SUCCESS_COUNT";
+        String ON_MON_YN = "ON_MON_YN";
+        String ON_TUE_YN = "ON_TUE_YN";
+        String ON_WED_YN = "ON_WED_YN";
+        String ON_THU_YN = "ON_THU_YN";
+        String ON_FRI_YN = "ON_FRI_YN";
+        String ON_SAT_YN = "ON_SAT_YN";
+        String ON_SUN_YN = "ON_SUN_YN";
+        String ON_HOLIDAY_YN = "ON_HOLIDAY_YN";
+        String ORDER_NO = "ORDER_NO";
+        String REG_TS = "REG_TS";
+        String CHG_TS = "CHG_TS";
     }
 
     private static HabitDao sInstance;
